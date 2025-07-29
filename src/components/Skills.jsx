@@ -36,7 +36,7 @@ function Skills() {
         <div className="mb-4 leading-relaxed">
           <h3 className="text-xl font-medium text-gray-900 mb-2">🛒 E-Commerce Platforms</h3>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
-            <li>OpenCart (5 years) — modules, themes, multi-vendor</li>
+            <li>OpenCart (7 years) — modules, themes, multi-vendor</li>
             <li>Magento (2 years) — shipping & payment modules</li>
           </ul>
         </div>
