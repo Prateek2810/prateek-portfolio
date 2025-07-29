@@ -35,13 +35,8 @@ function Contact() {
     </div>
 
     {/* Right Column: Contact Form */}
-<form
-  name="contact"
-  method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
-  className="flex flex-col gap-4"
->
+  <form name="contact" method="POST" data-netlify="true" action="/success" className="flex flex-col gap-4" netlify>
+  
 
       <input type="hidden" name="form-name" value="contact" />
       <p className="hidden">
