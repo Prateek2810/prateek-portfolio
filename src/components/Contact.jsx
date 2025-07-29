@@ -1,4 +1,5 @@
 function Contact() {
+  
   return (
 <section className="p-8 bg-white rounded-lg shadow-md space-y-8">
   <h2 className="text-2xl font-bold text-gray-800">Contact Me</h2>
@@ -34,13 +35,20 @@ function Contact() {
     </div>
 
     {/* Right Column: Contact Form */}
-    <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      className="flex flex-col gap-4"
-    >
+<form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  className="flex flex-col gap-4"
+>
+
       <input type="hidden" name="form-name" value="contact" />
+      <p className="hidden">
+        <label>
+          Don’t fill this out: <input name="bot-field" />
+        </label>
+      </p>
 
       <input
         type="text"
