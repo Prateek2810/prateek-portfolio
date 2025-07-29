@@ -8,7 +8,7 @@ function Header() {
 
       <div className="flex justify-center items-center gap-4 mt-4 flex-wrap">
         <a
-          href="/Prateek_Dubey_Resume.pdf"
+          href="/files/PrattekDubeyResume.pdf"
           download
           className="bg-[rgb(44,49,54)] hover:bg-blue-700 text-white px-4 py-2 rounded shadow"
         >
